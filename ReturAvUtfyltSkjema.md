@@ -1,6 +1,6 @@
 # RETUR AV UTFYLT SKJEMA
 
-*Sist oppdatert 27.08.2019*
+*Sist oppdatert 10.03.2030*
 
 Når pasienten har fylt ut et skjema sendes skjemaet tilbake til Bestillersystemet.
 
@@ -31,6 +31,10 @@ F.eks: [https://mrsdev.helsemn.no/PromsTestregisterServices/api/PromsFormOrder](
 * patientInitiatedValues - Information about the patient initiated order
   + formId - The Id of the form ordered
   + nationalId - The national id number of the patient ordered the form
+* formOrderEventLog - Array of logged form events
+  + eventType - The type of event `{ FormOpened | QuestionAccessed | SigningStarted | SigningCancelled | SigningError | SigningCompleted | FormDelivered }`
+  + questionId - The ID of the accessed question (if evenType = QuestionAccessed, otherwise no value)
+  + timestampUtc - Date and time for the event
 
 **Parametere - Ut**
 
