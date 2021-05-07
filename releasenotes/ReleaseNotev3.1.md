@@ -2,19 +2,19 @@
 *Dato: 07.05.2021*
 
 ### ePROM
-* Pålogget sesjon holdes aktiv under utfylling av pasientskjemaet. Dette for bl.a. unngå feil ved signering
-* Signering av skjema: Endret tittel på kopi av skjemasvar som sendes til utfyller.
+* Pålogget sesjon holdes aktiv under utfylling av pasientskjemaet. Dette for bl.a. unngå feil ved signering dersom utfylling av skjema tar lang tid
+* Signering av skjema: Endret tittel på kopi av skjemasvar som sendes til utfyller i digipost
 * Viser Norsk helsenett sin kontaktinformasjon for teknisk support
-* Fiks for å vise hjelpetekster på mobile enheter
 * For pålogget bruker vises også mellomnavn i pasientskjemaet
+* Fiks for å vise hjelpetekster på mobile enheter
 * Fiks på visning av epostadresse i pasientskjemaet
 
 ### ePROM Admin
-* Skjemainformasjon:
-  * Mer forståelige tekster
-  * Forhåndsvisning gjort mer lesbar
-  * Viser logo og navn hvis kjent organisasjonsnummer
-* Sletting av Samleskjema sletter også koblinger til unserskjema
+* Skjemainformasjon/forhåndsvisning:
+  * Mer forståelige ledetekster
+  * Forhåndsvisning er gjort mer lesbar
+  * Logo og navn vises hvis organisasjonsnummer er kjent
+* Sletting av Samleskjema sletter også koblinger til underskjema
 * Ikke mulig å slette skjema som er koblet til et Samleskjema
 
 ### Teknisk
